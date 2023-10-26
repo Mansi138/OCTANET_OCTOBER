@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100px;
+    height: 100px;
+    background-color: lavender;
+}
+#home{
+    width: 1500%;
+    height: 300%;
+    background-color: rgb(161, 156, 156);
+}
+#hero{
+    position: absolute;
+     background-color: rgb(201, 190, 190);
+    top: 1000%;
+    left: 25%;
+    padding-right: 50%;
+    transform: translate(-20%,-50%);
+    line-height: 80px;
+}
+#heading{
+    font-size: 40px;
+    line-height: 80px;
+    nav-down: auto;
+    text-align: center;
+}
+#paragraph{
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 25px;
+    margin-bottom: 50px;
+    text-align: center;  
+}
+  
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+#navbar {
+      display: flex;
+}
+#navbar div {
+    margin-right: 20px;
+}
+ul li{
+    list-style: none;
+    margin: 15px;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0078d4; 
+    color: white; 
+    text-decoration: none;
+    border: none;
+    border-radius: 10px; 
+    margin: 20px;
+    transition: background-color 0.3s; 
+   
+}
+
+/* Style for hover effect */
+.nav-button:hover {
+    background-color: #005ea2; 
+}
+
+  
+.destinations {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+  
+.destination-card1,
+.destination-card2,
+.destination-card3 {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd; 
+    color: #030000;
+}
+.image1 {
+    max-width: fit-content; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: 0; 
+    text-align: center;
+    color: #030000;
+}
+.image2{
+    max-width: fit-content;
+}
+.image3{
+    max-width: fit-content;
+}
+.header {
+    position: relative;
+     background-color: #333;
+    color: white; 
+    padding: 20px;
+    text-align: center;
+}
+.header h1 {
+    margin: 0;
+}
+.header p {
+    margin: 10px 0;
+}
+#navbar{
+    display: flex;
+    width: 1500px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-color: #675109;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(232, 226, 226);
+}
+footer {
+    background-color: rgb(158, 150, 150);
+    color: #060303;
+    text-align: center;
+    padding: 10px;
+    width: 1500px;
+}
