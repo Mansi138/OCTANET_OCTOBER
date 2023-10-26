@@ -1,0 +1,45 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(cadetblue, white, whitesmoke);
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(21, 3, 3);
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #656161;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    padding: 50px;
+    border-bottom: 1px solid #aca9a9;
+}
+
+button.delete {
+    background-color: rgb(155, 157, 155);
+    color: rgb(88, 77, 77);
+    border: #656161;
+}
